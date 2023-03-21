@@ -1,0 +1,78 @@
+body {
+    font-family: cursive;
+    font-size: 16px;
+}
+
+#nav-header {
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 0;
+    height: 60px;
+}
+
+#nav-header .navbar-brand {
+    color: black;
+    font-weight: bold;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+} 
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus  {
+    color: #777;
+} 
+
+#nav-header button {
+    color: black;
+    border: 2px solid black;
+}
+
+#collapsable-navbar li {
+    color: black;
+    border-top: 2px solid black;
+}
+
+.container h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.section-content {
+    background-color: lightgray;
+    /* background-color: rgb(128, 169, 128); */
+    padding: 2px 15px 1px;
+    margin-bottom: 20px;
+}
+
+.section-content h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#link-to-top {
+    margin-top: 15px;
+}
+
+#link-to-top a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+}
+
+#link-to-top a:hover, #link-to-top a:focus {
+    text-decoration: none;
+}
+
